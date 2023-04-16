@@ -19,7 +19,7 @@ heroku()
 sudo()
 
 # Clients
-app = AnonXBot()
+app = DokiBot()
 
 userbot = Userbot()
 
