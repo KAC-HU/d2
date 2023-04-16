@@ -8,17 +8,17 @@ from pyrogram.types import (InlineKeyboardButton,
 
 from config import BANNED_USERS, SERVER_PLAYLIST_LIMIT
 from strings import get_command
-from AnonX import Carbon, YouTube, app
-from AnonX.utils.database import (delete_playlist, get_playlist,
+from doki import Carbon, YouTube, app
+from doki.utils.database import (delete_playlist, get_playlist,
                                        get_playlist_names,
                                        save_playlist)
-from AnonX.utils.decorators.language import language, languageCB
-from AnonX.utils.inline.play import close_keyboard
-from AnonX.utils.inline.playlist import (botplaylist_markup,
+from doki.utils.decorators.language import language, languageCB
+from doki.utils.inline.play import close_keyboard
+from doki.utils.inline.playlist import (botplaylist_markup,
                                               get_playlist_markup,
                                               warning_markup)
-from AnonX.utils.pastebin import Anonbin
-from AnonX.utils.stream.stream import stream
+from doki.utils.pastebin import Anonbin
+from doki.utils.stream.stream import stream
 
 # Command
 PLAYLIST_COMMAND = get_command("PLAYLIST_COMMAND")
@@ -217,7 +217,7 @@ async def add_playlist(client, CallbackQuery, _):
     try:
         title = (title[:30]).title()
         return await CallbackQuery.message.reply_text(
-            text="❄ sᴜᴄᴄᴇssғᴜʟʟʏ ᴀᴅᴅᴇᴅ ᴛᴏ ᴩʟᴀʏʟɪsᴛ.\n │\n └ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ : {0}".format(CallbackQuery.from_user.mention),
+            text="Successfully added to playlist.\n │\n └requested by : {0}".format(CallbackQuery.from_user.mention),
             reply_markup=close_keyboard,
         )
     except:
