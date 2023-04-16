@@ -5,7 +5,7 @@ import config
 from config import BANNED_USERS
 from strings import get_command
 from doki import YouTube, app
-from doki.core.call import Anon
+from doki.core.call import Doki
 from doki.misc import db
 from doki.utils.database import get_loop
 from doki.utils.decorators import AdminRightsCheck
