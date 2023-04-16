@@ -9,8 +9,8 @@ from pyrogram.types import Message
 from youtubesearchpython.__future__ import VideosSearch
 
 import config
-from AnonX.utils.database import is_on_off
-from AnonX.utils.formatters import time_to_seconds
+from doki.utils.database import is_on_off
+from doki.utils.formatters import time_to_seconds
 
 
 async def shell_cmd(cmd):
