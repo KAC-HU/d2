@@ -6,7 +6,7 @@ from pyrogram.types import CallbackQuery, Message
 from config import BANNED_USERS, MUSIC_BOT_NAME, adminlist, lyrical
 from strings import get_command
 from doki import app
-from doki.core.call import Anon
+from doki.core.call import Doki
 from doki.misc import db
 from doki.utils.database import get_authuser_names, get_cmode
 from doki.utils.decorators import (ActualAdminCB, AdminActual,
