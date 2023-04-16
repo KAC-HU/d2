@@ -2,9 +2,9 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from config import adminlist
 from strings import get_string
-from AnonX import app
-from AnonX.misc import SUDOERS
-from AnonX.utils.database import (get_authuser_names, get_cmode,
+from doki import app
+from doki.misc import SUDOERS
+from doki.utils.database import (get_authuser_names, get_cmode,
                                        get_lang, is_active_chat,
                                        is_commanddelete_on,
                                        is_maintenance,
