@@ -1,7 +1,7 @@
 import asyncio
 
-from AnonX.misc import db
-from AnonX.utils.database import get_active_chats, is_music_playing
+from doki.misc import db
+from doki.utils.database import get_active_chats, is_music_playing
 
 
 async def timer():
