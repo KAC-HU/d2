@@ -1,0 +1,438 @@
+name : English
+
+# General Strings
+general_1 : "reply to a user's message or give username/user_id."
+general_2 : "error ! wrong usage of command."
+general_3 : "some **exception occured** while processing your ouery.\n\nexception type:- {0}"
+general_4 : "you're an anonymous admin in this chat group !\nrevert back to user account for admin rights."
+general_5 : "you need to be admin with **manage video chat** rights to perform this action."
+general_6 : "bot isn't streaming on video chat."
+
+# Classes - Telegram.py
+tg_1 : "bot is **overloaded** with downloads right now.\n\n**try after:** {0} (__expected time__)"
+tg_2 : "failed to download the media from telegram."
+
+# Core - Call.py
+call_1 : "bot reouires **admin** permission to invite assistant account to your channel.\n\ndisable channel playmode via : /playmode"
+call_2 : "{0} assistant is banned in this chat.\n\n**id :** `{1}`\n**name :** {2}\n**username :** @{3}\n\nplease unban the assistant and try playing again..."
+call_3 : "» failed to invite assistant to your chat.\n\n**reason :** `{0}`"
+call_4 : "bot reouires **invite users via link** permission to invite assistant account to your chat group."
+call_5 : "➻ please wait...\n\n» inviting {0} to {1}."
+call_6 : "{0} assistant joined successfully. \n\ntrying to start stream..."
+call_7 : "**harmful admin right given **\n\nplease remove **ban users** rights from the bot."
+call_8 : "**harmful admin right given **\n\nplease remove **add new admins** rights from the bot."
+call_9 : "**failed to switch stream**\nplease use /skip to change track again."
+call_10 : "downloading next track from playlist..."
+call_11 : "please add @{0} to your channel [id: {1}].\n\nbot is not able to get channel details."
+
+# PLUGINS - Auth.py
+auth_1 : "you can only have 20 users in your group's authorised users list."
+auth_2 : "added to authorised users list of your group."
+auth_3 : "already in the authorised users list."
+auth_4 : "removed from authorised users list of this group."
+auth_5 : "targeted user is not an authorised user."
+auth_6 : "fetching authorised users...please wait !"
+auth_7 : "**authorised users list[aul]:**\n\n"
+auth_8 : "┗ added by:-"
+
+# PLUGINS - Admins
+admin_1 : "music is already paused'."
+admin_2 : "➻ **stream paused** \n│ \n└by : {} "
+admin_3 : "music is already resumed'."
+admin_4 : "➻ **stream resumed** \n│ \n└by : {} "
+admin_5 : "music is already muted'."
+admin_6 : "🎧 voicechat muted by {} '!"
+admin_7 : "music is already unmuted'."
+admin_8 : "🎧 voicechat unmuted by {} '!"
+admin_9 : "➻ **stream ended/stopped** ❄\n│ \n└by : {} "
+admin_10 : "➻ stream skipped \n│ \n└by : {0} \n\n**» no more oueued tracks in** {1}, **leaving videochat.**"
+admin_11 : "error while changing stream to **{0}** \n\nplease use /skip again."
+admin_12 : "unable to skip to a specific track because of enabled **loop play**. please disable loop play via `/loop disable` to use this feature ."
+admin_13 : "please use numeric numbers for specific tracks baby', like 1, 2 or etc"
+admin_14 : "atleast 2 tracks needed in oueue to skip to a specific number . check oueue by /queue"
+admin_15 : "not enough tracks in oueue for the value given by you baby'. please choose numbers between 1 and {0}"
+admin_16 : "failed to skip to specific track .\n\ncheck left oueue by /queue"
+admin_17 : "{0}...please wait !"
+admin_18 : "admin list not found \n\nplease reload adminlist via `/reload`"
+admin_19 : "you need to be admin with **manage voice chat** rights to perform this baby'.\nif you're already admin, reload admincache via `/reload` "
+admin_20 : "admin cache reloaded successfully ."
+admin_21 : "nothing inside oueue to shuffle "
+admin_22 : "failed to shuffle baby'.\n\ncheck oueue : /queue"
+admin_23 : "**oueue shuffled by {0}'**\n\ncheck shuffled oueue : /queue"
+admin_24 : "**usage:**\n/loop [enable/disable] or [number between 1-10]\n\n**example:** /loop 5"
+admin_25 : "loop enabled by {0}  for **{1}** times. bot will now repeat the current playing music on voice chat for **{1}** times "
+admin_26 : "please use numbers between 1-10 for loop play "
+admin_27 : "loop play has been disabled "
+admin_28 : "**usage:**\n/seek or /seekback [duration in seconds]"
+admin_29 : "please use number for seeking in seconds."
+admin_30 : "sorry but you can't seek the playing stream, it can only be skipped or stopped."
+admin_31 : "bot is not able to seek because of high duration given. try seeking with lower duration and remember that a time of 10sec is left after seeking.\n\nplaying** {0}** mins out of **{1}** mins"
+admin_32 : "seeking..."
+admin_33 : "seeked to {0} mins"
+admin_34 : "failed to seek."
+
+# Bot 
+
+# Start
+start_1 : "Thanks for adding me in {0}.\n{1} can now play songs in this chat.\n\nfor getting any type of help you can join our support group."
+start_2 : "**Hayi, **\n   **this is {0}** \n **a Powerful Music Player bot with some awesome and useful features.**\n\n**all of my commands are listed in the help button.**"
+start_3 : "hey,\n  this is {0}\n\na fast and powerful music player bot with some awesome features.\n\nassistant username:- @{1}\nassistant id:- {2}"
+start_4 : "the owner of {0}, [{1}] just joined your chat."
+start_5 : "the sudo user of {0}, [{1}] just joined your chat."
+start_6 : "❗️ **supergroup needed** ❗️\n\nplease convert your **group** to **supergroup** and then add me back.\n\n**how to make supergroup ?**\n make your group's chat history **visible** once."
+start_7 : "**blacklisted chat**\n\nthis chat is blacklist for using the bot. reouest a sudo user to whitelist your chat, sudo users [list]({0}) , else fu*k off."
+
+# Help
+help_1 : "choose the category for which you wanna get help.\nask your doubts at @{}\n\nall commands can be used with : `/`"
+help_2 : "**» click on the button given below to get the help menu.**"
+
+# Settings
+setting_1 : "⚙️ **music bot settings**\n\n🖇**group:** {0}\n🔖**group id:** `{1}`\n\n💡**choose the function buttons from below which you want to edit or change.**"
+setting_3 : "⁉️ what is this ?\n\n1) direct: plays search oueries directly. use -v to play videos in direct mode.\n\n2) inline: returns inline markup buttons for choosing between video & audio."
+setting_4 : "⁉️ what is this ?\n\n👥 everyone: anyone can use admin commands(skip, pause, resume etc) present in this group.\n\n🙍 admin only: only admins and authorized users can use admin commands."
+setting_5 : "no authorized users found.\n\nyou can allow any non-admin to use my admin commands by /auth and delete by using /unauth"
+setting_9 : "⁉️ what is this ?\n\nwhen activated, bot will delete its message after {0} to make your chat clean and clear."
+setting_10 : "⁉️ what is this ?\n\n1) group: plays music in the group where the command is given.\n\n2) channel: plays music in the channel you want. set channel id via /channelplay"
+setting_11 : "⁉️ what is this ?\n\n1) everyone: anyone present in this group can play music here.\n\n2) admin only: only admins can play the music in this group."
+setting_12 : "❌ you've no channel id defined for channel mode. please define with /channelplay."
+setting_13 : "can't change play mode in active group call. please stop the voice chat first with /stop or /end."
+setting_14 : "⁉️ what is this ?\n\nwhen activated, bot will delete its executed commands (/play, /pause, /shuffle, /stop etc) immediately.\n\nbot will be reouiring delete messages admin right for this to work properly."
+setting_15 : "failed to resolve peer, make sure you have added bot in your channel and promoted it as admin baby'.\n\ntry setting /channelplay again."
+setting_16 : "⁉️ what is this ?\n\nwhen this is activated the bot will automatically suggest your chat in every 1-2 hour about the commands of the bot."
+
+set_cb_1 : "getting audio ouality panel..."
+set_cb_2 : "getting video ouality panel..."
+set_cb_3 : "getting auth users panel..."
+set_cb_4 : "getting play mode panel..."
+set_cb_5 : "getting clean mode panel..."
+set_cb_6 : "setting up changes..."
+set_cb_7 : "getting auth users list..."
+set_cb_8 : "going back..."
+
+# Misc
+ustats_1 : "no user stats found."
+ustats_2 : "grettings !, you have played **{0}** tracks till now with a whopping count of **{1}** times.\n\ntop **{2}** played by you:\n\n"
+
+gstats_1 : "getting global stats, this could take some time..."
+gstats_2 : "no global stats found."
+gstats_3 : "getting global top 10 {0} of the bot, this could take some time..."
+gstats_4 : "**total oueries on bot:** {0}\n\n{1} has played **{2}** tracks till now with a whopping count of **{3}** times.\n\n**top {4} tracks:**\n"
+gstats_5 : "**top {0} chats of {1}:**\n\n"
+gstats_6 : "**top {0} users of {1}:**\n\n"
+gstats_7 : "this chat group has played **{0}** tracks till now with a whopping count of **{1}** times.\n\ntop {2} played by this chat group:\n\n"
+gstats_8 : "getting bot's general stats and information.. this could take some time..."
+gstats_9 : "**global top 10 stats of the bot baby**\n\nselect the buttons from below for which you want to check global stats from bot's servers."
+gstats_10 : "**global stats of {0}**\n\nselect the buttons from below for which you want to check global stats from bot's servers."
+gstats_11 : "**general stats of {0}**\nselect the buttons from below for which you want to check global stats from bot's servers.\n\nuse /gstats to check top tracks, chats, users and many other stuffs."
+
+# Play 
+
+#Play Callback 
+playcb_1 : "this is not for you baby ! search you own."
+playcb_2 : "getting next result..."
+
+# Channel Play
+cplay_1 : "you can play music in channels from this chat [{0}] to any channel or your chat's linked channel.\n\n**for linked channel:**\n/{1} linked\n\n**for any other channel:**\n/{1} [channel id]"
+cplay_2 : "this chat has no linked channel."
+cplay_3 : "channel defined to {0}\n\nchannel id: {1}"
+cplay_4 : "failed to get channel.\n\nmake sure you have added bot in your channel and promoted it as admin.\nchange channel via /channelplay or disable channel play mode via /playmode"
+cplay_5 : "only channels are supported."
+cplay_6 : "you need to be the **owner** of the channel [{0}] to connect it with this group.\n**channel's owner:** @{1}\n\nalternatively you can link your group to that channel and then try connnecting with `/channelplay linked`"
+
+#Play
+play_1 : "🐧"
+play_2 : "🏷**ᴄʜᴀɴɴᴇʟ ᴘʟᴀʏ ᴍᴏᴅᴇ**\n🔄 ᴘʀᴏᴄᴇssɪɴɢ ǫᴜᴇʀʏ... ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ!\n\n**ʟɪɴᴋᴇᴅ ᴄʜᴀɴɴᴇʟ:** {0}"
+play_3 : "ꜰᴀɪʟᴇᴅ ᴛᴏ ᴘʀᴏᴄᴇss ǫᴜᴇʀʏ !"
+play_4 : "🖇 **ᴀᴅᴍɪɴs ᴏɴʟʏ ᴘʟᴀʏ**\nᴏɴʟʏ ᴀᴅᴍɪɴs ᴀɴᴅ ᴀᴜᴛʜ ᴜsᴇʀs ᴄᴀɴ ᴘʟᴀʏ ᴍᴜsɪᴄ ɪɴ ᴛʜɪs ɢʀᴏᴜᴘ.\n\nᴄʜᴀɴɢᴇ ᴍᴏᴅᴇ ᴠɪᴀ /playmode ᴀɴᴅ ɪꜰ ʏᴏᴜ'ʀᴇ ᴀʟʀᴇᴀᴅʏ ᴀᴅᴍɪɴ, ʀᴇʟᴏᴀᴅ ᴀᴅᴍɪɴᴄᴀᴄʜᴇ ᴠɪᴀ `/reload`"
+play_5 : "ꜰᴀɪʟᴇᴅ ᴛᴏ ᴘʀᴏᴄᴇss ᴀᴜᴅɪᴏ ꜰɪʟᴇ.\n\nᴀᴜᴅɪᴏ ꜰɪʟᴇ sɪᴢᴇ sʜᴏᴜʟᴅ ʙᴇ ʟᴇss ᴛʜᴀɴ 100 ᴍʙ."
+play_6 : "**ᴅᴜʀᴀᴛɪᴏɴ ʟɪᴍɪᴛ ᴇxᴄᴇᴇᴅᴇᴅ**\n\n**ᴀʟʟᴏᴡᴇᴅ ᴅᴜʀᴀᴛɪᴏɴ:** {0} ᴍɪɴᴜᴛᴇs\n**ʀᴇᴄᴇɪᴠᴇᴅ ᴅᴜʀᴀᴛɪᴏɴ:** {1} ᴍɪɴᴜᴛᴇs"
+play_7 : "sᴏʀʀʏ ! ʙᴏᴛ ᴏɴʟʏ ᴀʟʟᴏᴡs ʟɪᴍɪᴛᴇᴅ ɴᴜᴍʙᴇʀ ᴏꜰ ᴠɪᴅᴇᴏ ᴄᴀʟʟs ᴅᴜᴇ ᴛᴏ ᴄᴘᴜ ᴏᴠᴇʀʟᴏᴀᴅ ɪssᴜᴇs. ᴍᴀɴʏ ᴏᴛʜᴇʀ ᴄʜᴀᴛs ᴀʀᴇ ᴜsɪɴɢ ᴠɪᴅᴇᴏ ᴄᴀʟʟ ʀɪɢʜᴛ ɴᴏᴡ. ᴛʀʏ sᴡɪᴛᴄʜɪɴɢ ᴛᴏ ᴀᴜᴅɪᴏ ᴏʀ ᴛʀʏ ᴀɢᴀɪɴ ʟᴀᴛᴇʀ."
+play_8 : "ɴᴏᴛ ᴀ ᴠᴀʟɪᴅ ᴠɪᴅᴇᴏ ꜰɪʟᴇ ᴇxᴛᴇɴsɪᴏɴ !\n\n**sᴜᴘᴘᴏʀᴛᴇᴅ ꜰᴏʀᴍᴀᴛs:** {0}"
+play_9 : "ᴠɪᴅᴇᴏ ꜰɪʟᴇ sɪᴢᴇ sʜᴏᴜʟᴅ ʙᴇ ʟᴇss ᴛʜᴀɴ 1 ɢɪʙ"
+play_10 : "**ʏᴏᴜᴛᴜʙᴇ ᴘʟᴀʏʟɪsᴛ ꜰᴇᴀᴛᴜʀᴇ**\n\nsᴇʟᴇᴄᴛ ᴛʜᴇ ᴍᴏᴅᴇ ɪɴ ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴘʟᴀʏ ᴡʜᴏʟᴇ ʏᴏᴜᴛᴜʙᴇ ᴘʟᴀʏʟɪsᴛ"
+play_11 : "**ᴛɪᴛʟᴇ:** {0}\n\n⏱**ᴅᴜʀᴀᴛɪᴏɴ:** {1} ᴍɪɴs"
+play_12 : "**sᴘᴏᴛɪꜰʏ ᴘʟᴀʏʟɪsᴛs**\n\nʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:- {0}"
+play_13 : "**ᴀᴘᴘʟᴇ ᴘʟᴀʏʟɪsᴛs**\n\nʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:- {0}"
+play_14 : "**ᴜɴᴀʙʟᴇ ᴛᴏ ᴠᴇʀɪꜰʏ ᴛʜᴇ ᴜʀʟ.**\nʙᴏᴛ ᴡᴏɴᴅᴇʀs ɪꜰ ᴛʜɪs ᴜʀʟ ʙᴇʟᴏɴɢs ᴛᴏ ᴀɴʏ ᴏꜰ ᴛʜᴇ ꜰᴏʟʟᴏᴡɪɴɢ ᴘʟᴀᴛꜰᴏʀᴍs: ʏᴏᴜᴛᴜʙᴇ, ᴀᴘᴘʟᴇ ᴍᴜsɪᴄ, sᴘᴏᴛɪꜰʏ, ʀᴇssᴏ ᴀɴᴅ sᴏᴜɴᴅᴄʟᴏᴜᴅ.\n\nʏᴏᴜ ᴄᴀɴ ᴜsᴇ /stream ꜰᴏʀ ᴍ3ᴜ8 ᴏʀ ʀᴇᴍᴏᴛᴇ ʟɪɴᴋs."
+play_15 : "**ʟɪᴠᴇ sᴛʀᴇᴀᴍ ᴅᴇᴛᴇᴄᴛᴇᴅ**\n\nsʏsᴛᴇᴍs ʜᴀᴠᴇ ᴅᴇᴛᴇᴄᴛᴇᴅ ʏᴏᴜʀ ᴛʀᴀᴄᴋ ʟɪɴᴋ ᴀs ʟɪᴠᴇ sᴛʀᴇᴀᴍ. ᴡᴀɴᴛ ᴛᴏ ᴘʟᴀʏ ʟɪᴠᴇ sᴛʀᴇᴀᴍ ?"
+play_16 : "ꜰᴀɪʟᴇᴅ ᴛᴏ ꜰᴇᴛᴄʜ ᴛʀᴀᴄᴋ ᴅᴇᴛᴀɪʟs, ᴍᴀʏʙᴇ ᴛʜᴀᴛ ᴛʀᴀᴄᴋ ɪs ᴀɢᴇ ʀᴇsᴛʀɪᴄᴛᴇᴅ ᴏɴ ʏᴏᴜᴛᴜʙᴇ. ᴛʀʏ ᴘʟᴀʏɪɴɢ ᴀɴʏ ᴏᴛʜᴇʀ."
+play_17 : "ᴜɴᴀʙʟᴇ ᴛᴏ ᴩʟᴀʏ ᴛʜɪs ᴛʏᴩᴇ ᴏғ sᴩᴏᴛɪғʏ ǫᴜᴇʀʏ !\n\n ɪ ᴄᴀɴ ᴏɴʟʏ ᴩʟᴀʏ sᴩᴏᴛɪғʏ ᴛʀᴀᴄᴋs, ᴀʟʙᴜᴍs, ᴀʀᴛɪsᴛs ᴀɴᴅ ᴩʟᴀʏʟɪsᴛs"
+play_18 : "**ɴᴏ ᴀᴄᴛɪᴠᴇ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ**\n\nᴛᴏ ᴜsᴇ ғᴏʀᴄᴇ ᴩʟᴀʏ, ᴛʜᴇʀᴇ ᴍᴜsᴛ ʙᴇ ᴀɴ ᴀᴄᴛɪᴠᴇ ᴠᴏɪᴄᴇᴄʜᴀᴛ."
+
+#Playlist
+playlist_1 : "**usage:** /play [music name or youtube link or reply to audio]\n\nif you want to play bot's server playlist ! press the button below."
+playlist_2 : "getting your playlist... please wait !"
+playlist_3 : "you have no playlist on bot's server."
+playlist_4 : "fetched playlist:\n\n"
+playlist_5 :  "duration : {0} mins..."
+playlist_6 : "contact me in pm for deletion of playlists."
+playlist_7 : "tracks inside playlist: {0}\n\npress the buttons to delete a particular track in your playlist.\n\nto delete whole playlist: press del whole playlist button."
+playlist_8 : "already exists\n\nthis track exists in your playlist."
+playlist_9 : "sorry ! you can only have {0} music in a playlist baby."
+playlist_10 : "playlist addition\n\n{0}\nadded to your playlist."
+playlist_11 : "successfully deleted your track."
+playlist_12 : "failed to deleted your track."
+playlist_13 : "deleted your whole playlists from the server. "
+playlist_14 : "**are you sure you want to delete your whole playlist ?**\n\nyou'll lost your playlist and this can't be recovered later."
+playlist_15 : "[checkout whole playlist]({0})"
+playlist_16 : "queued playlist :"
+playlist_17 : "position -"
+playlist_18 : "added {0} tracks to oueue : [check]({1})"
+
+#Playmode
+playmode_1 : "select the mode in which you want to play the oueries inside your group [{0}]."
+playmode_2 : "settings changed and saved successfully by {0}"
+
+#Stream 
+str_1 : "please provide m3u8 links or index links."
+str_2 : "✅ valid stream verified\n\nplease wait processing link..."
+str_3 : "unable to stream youtube live streams. no live format found"
+
+#TopPlay
+tracks_1 : "**ᴘʀᴏᴄᴇssɪɴɢ {0} ᴛᴏᴘ 10 ᴘʟᴀʏʟɪsᴛ\n\n ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ :** {1}"
+tracks_2 : "**ᴇʀʀᴏʀ**\n\nᴛʜᴇʀᴇ's ɴᴏ **{0} ᴛᴏᴘ 10 ᴘʟᴀʏʟɪsᴛ** ᴏɴ ʙᴏᴛ's sᴇʀᴠᴇʀs. ᴘʟᴇᴀsᴇ ᴛʀʏ ᴀɴʏ ᴏᴛʜᴇʀ ᴘʟᴀʏʟɪsᴛ"
+
+# TOOLS
+
+#Lyrics
+lyrics_1 : "**usage:**\n\n/lyrics [ music name]"
+lyrics_2 : "searching lyrics..."
+lyrics_3 : "❌ failed to fetch lyrics.\n\n💡**tried searching for:** {0}"
+lyrics_4 : "click on the button below and get searched lyrics to avoid long spam types lyrics search."
+
+#Ping
+ping_1 : "» ᴩɪɴɢɪɴɢ..."
+ping_2 : "🏓 ᴩᴏɴɢ : `{0}ᴍs`\n\n<b><u>{1} SYS STATS :</u></b>\n\n ᴜᴩᴛɪᴍᴇ : {2}\n ʀᴀᴍ : {3}\n ᴄᴩᴜ : {4}\n ᴅɪsᴋ : {5}\n☁ ᴩʏ-ᴛɢᴄᴀʟʟs : `{6}ᴍs`"
+
+# Song
+song_1 : "you can download music or video from youtube only in private chat. please start me in private chat."
+song_2 : "**usage:**\n\n/song [music name] or [youtube link]"
+song_3 : "live link detected. i am not able to download live youtube videos. "
+song_4 : "📌**title**:- {0}\n\nselect the type in which you want to download."
+song_5 : "not a valid youtube link."
+song_6 : "getting formats...\n\nplease wait..."
+song_7 : "failed to get available formats for the video. please try any other track."
+song_8 : "download started\n\nplease hold on for few seconds..."
+song_9 : "failed to download song from yt-dl\n\n**reason:** {0}"
+song_10 : "failed to upload on telegram servers."
+song_11 : "uploading started baby\n\nplease hold on..."
+
+# Tools - Queue
+queue_1 : "» ᴩʟᴇᴀsᴇ ᴡᴀɪᴛ..."
+queue_2 : "Queued List is empty. No tracks found"
+queue_3 : "<u>**Queued Tracks:</u>**  [Checkout More Queued Tracks From Here]({0})"
+queue_4 : "** ᴀᴅᴅᴇᴅ ᴛᴏ ǫᴜᴇᴜᴇ ᴀᴛ #{0}**\n\n❄ **ᴛɪᴛʟᴇ :** {1}\n⏱ **ᴅᴜʀᴀᴛɪᴏɴ :** {2} ᴍɪɴᴜᴛᴇs\n **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ :** {3}"
+queue_5 : "Only one is in track, Add sum more Tracks in queue to check whole queue."
+
+# All Streaming Lines
+stream_1 : "➻ **sᴛᴀʀᴛᴇᴅ sᴛʀᴇᴀᴍɪɴɢ**\n\n **ᴛɪᴛʟᴇ :** [{0}]({1})\n⏱ **ᴅᴜʀᴀᴛɪᴏɴ :** {2} ᴍɪɴᴜᴛᴇs\n **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ :** {3}"
+stream_2 : "➻ **sᴛᴀʀᴛᴇᴅ sᴛʀᴇᴀᴍɪɴɢ**\n\n **sᴛʀᴇᴀᴍ ᴛʏᴘᴇ :** ʟɪᴠᴇ sᴛʀᴇᴀᴍ [ᴜʀʟ]\n **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {0}"
+stream_3 : "➻ **sᴛᴀʀᴛᴇᴅ sᴛʀᴇᴀᴍɪɴɢ**\n\n **ᴛɪᴛʟᴇ:** {0}\n⏱ **ᴅᴜʀᴀᴛɪᴏɴ:** {1}\n **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {2} "
+stream_4 : "➻ **sᴛᴀʀᴛᴇᴅ sᴛʀᴇᴀᴍɪɴɢ**\n\n **ᴛɪᴛʟᴇ :** [{0}]({1})\n⏱ **ᴅᴜʀᴀᴛɪᴏɴ :** {2}\n **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ :** {3}"
+
+# Inline Buttons
+
+#General Buttons
+CLOSE_BUTTON  : " ᴄʟᴏsᴇ "
+CLOSEMENU_BUTTON  : " ᴄʟᴏsᴇ "
+BACK_BUTTON : "←"
+UNBAN_BUTTON : "• ᴜɴʙᴀɴ •"
+
+#Lyrics
+L_B_1 : "🚀 ᴄʜᴇᴄᴋᴏᴜᴛ ʟʏʀɪᴄs ɴᴏᴡ"
+
+# Start
+S_B_1 : "• ᴄᴏᴍᴍᴀɴᴅs •"
+S_B_2 : "• sᴇᴛᴛɪɴɢs •"
+S_B_3 : "• sᴜᴘᴘᴏʀᴛ •"
+S_B_4 : "• ᴄʜᴀɴɴᴇʟ •"
+S_B_5 : "• ᴀᴅᴅ ᴍᴇ •"
+S_B_6 : "• sᴏᴜʀᴄᴇ •"
+S_B_7 : "• ᴏᴡɴᴇʀ •"
+S_B_8 : "• ʜᴇʟᴩ •"
+
+#Help 
+H_B_1 : " ᴀᴅᴍɪɴ "
+H_B_2 : " ᴘʟᴀʏ "
+H_B_3 : " ʙᴏᴛ "
+H_B_4 : " ᴇxᴛʀᴀ "
+H_B_5 : " ᴄʟᴏsᴇ "
+H_B_6 : " sᴜᴅᴏ "
+
+#PlayMode
+PM_B_1 : "ᴅɪʀᴇᴄᴛ ᴘʟᴀʏ"
+PM_B_2 : "ɪɴʟɪɴᴇ ᴍᴀʀᴋᴜᴘ"
+PM_B_3 : "ᴄʜᴀɴɴᴇʟ ᴘʟᴀʏ"
+
+#Play
+P_B_1 : "🎧 ᴀᴜᴅɪᴏ 🎧"
+P_B_2 : "🎥 ᴠɪᴅᴇᴏ 🎥"
+P_B_3 : " ʟɪᴠᴇ"
+P_B_4 : " ᴘʟᴀʏʟɪsᴛ 🌌"
+
+#Playlist
+PL_B_1 : "🌌 ᴘʟᴀʏʟɪsᴛ 🌌"
+PL_B_2 : "• ᴘʟᴀʏʟɪsᴛs •"
+PL_B_3 : "• ᴍᴇɴᴜ •"
+PL_B_4 : " ᴘʟᴀʏ ᴍᴏᴅᴇ"
+PL_B_5 : " ᴅᴇʟᴇᴛᴇ ᴡʜᴏʟᴇ ᴘʟᴀʏʟɪsᴛ"
+PL_B_6 : " ᴅᴇʟᴇᴛᴇ ᴘʟᴀʏʟɪsᴛ"
+PL_B_7 : " ʏᴇᴀʜ, ᴅᴇʟᴇᴛᴇ ɪᴛ"
+PL_B_8 : " ᴘʟᴀʏ ᴛᴏᴘ 10"
+PL_B_9 : " ᴘʟᴀʏ ɢʟᴏʙᴀʟ ᴛᴏᴘ 10 ᴛʀᴀᴄᴋs"
+PL_B_10 : " ᴘʟᴀʏ ɢʀᴏᴜᴘ's ᴛᴏᴘ 10 ᴛʀᴀᴄᴋs"
+PL_B_11 : " ᴘʟᴀʏ ᴘᴇʀsᴏɴᴀʟ ᴛᴏᴘ 10 ᴛʀᴀᴄᴋs"
+
+#Settings
+ST_B_1 : "🔊 ᴀᴜᴅ ǫᴜᴀʟɪᴛʏ"
+ST_B_2 : "🎥 ᴠɪᴅ ǫᴜᴀʟɪᴛʏ"
+ST_B_3 : "🎩 ᴀᴜᴛʜ ᴜsᴇʀs"
+ST_B_4 : "📱 ᴅᴀsʜʙᴏᴀʀᴅ"
+ST_B_5 : "▶️ ᴘʟᴀʏ ᴍᴏᴅᴇ"
+ST_B_6 : "🇮🇳 ʟᴀɴɢᴜᴀɢᴇ 🇮🇳"
+ST_B_7 : "🗑 ᴄʟᴇᴀɴ ᴍᴏᴅᴇ"
+ST_B_8 : "{0} ʟᴏᴡ"
+ST_B_9 : "{0} ᴍᴇᴅɪᴜᴍ"
+ST_B_10 : "{0} ʜɪɢʜ"
+ST_B_11 : "{0} ʟᴏᴡ"
+ST_B_12 : "{0} ᴍᴇᴅɪᴜᴍ"
+ST_B_13 : "{0} ʜɪɢʜ"
+ST_B_14 : "ᴏɴ "
+ST_B_15 : "ᴏғғ "
+ST_B_16 : " ᴀᴅᴍɪɴs"
+ST_B_17 : " ᴇᴠᴇʀʏᴏɴᴇ"
+ST_B_18 : " ᴀᴜᴛʜ ʟɪsᴛ"
+ST_B_19 : " sᴇᴀʀᴄʜ ᴍᴏᴅᴇ"
+ST_B_20 : " ᴅɪʀᴇᴄᴛ"
+ST_B_21 : " ɪɴʟɪɴᴇ"
+ST_B_22 : " ᴘʟᴀʏ ᴍᴏᴅᴇ"
+ST_B_23 : " ɢʀᴏᴜᴘ"
+ST_B_24 : " ᴄʜᴀɴɴᴇʟ"
+ST_B_25 : " ᴘʟᴀʏ ᴛʏᴘᴇ"
+ST_B_26 : " ᴄᴏᴍᴍᴀɴᴅ ᴄʟᴇᴀɴ"
+ST_B_27 : "🚀 sᴜɢɢᴇsᴛɪᴏɴ ᴍᴏᴅᴇ"
+
+#Song
+SG_B_1 : "• ᴄʟɪᴄᴋ ʜᴇʀᴇ •"
+SG_B_2 : " ᴀᴜᴅɪᴏ 🎧"
+SG_B_3 : " ᴠɪᴅᴇᴏ 🎥"
+
+#Stats
+SA_B_1 : " ᴛᴏᴘ 10 ᴄʜᴀᴛs"
+SA_B_2 : " ᴛᴏᴘ 10 ᴛʀᴀᴄᴋs"
+SA_B_3 : " ᴛᴏᴘ 10 ᴜsᴇʀs"
+SA_B_4 : " ᴛᴏᴘ 10 ʜᴇʀᴇ"
+SA_B_5 : " ᴏᴠᴇʀᴀʟʟ sᴛᴀᴛs"
+SA_B_6 : " ᴜsᴇʀ sᴛᴀᴛs"
+SA_B_7 : " ɢʟᴏʙᴀʟ ᴛᴏᴘ 10 sᴛᴀᴛs"
+SA_B_8 : " ʙᴏᴛ sᴛᴀᴛs"
+
+#Queue
+QU_B_1 : "📑 ǫᴜᴇᴜᴇᴅ ʟɪsᴛ"
+QU_B_2 : "ᴩʟᴀʏᴇᴅ {0} ᴏᴜᴛ ᴏғ {1} ᴍɪɴs"
+
+# Sudo Users [ If you are translating this to some other language .. you can leave all these strings in english language]
+
+#Sudo
+sudo_1 : "{0} is already a sudo user."
+sudo_2 : "added **{0}** to sudo users." 
+sudo_3 : "not a part of bot's sudo."
+sudo_4 : "removed from bot's sudo user."
+sudo_5 : "<u> **owners:**</u>\n"
+sudo_6 : "\n<u> **sudoers:**</u>\n"
+sudo_7 : "no sudo users found."
+
+#Block
+block_1 : "{0} is already blocked from the bot."
+block_2 : "added **{0}** to block list of bot. user won't be able to use bot now under any condition.\n\ncheck blocked users: /blockedusers"
+block_3 : "user is already free."
+block_4 : "removed user from the block list. user will be able to use bot now."
+block_5 : "no blocked users found."
+block_6 : "getting blocked users list...please wait !"
+block_7 : "**blocked users:**\n\n"
+
+#Blacklist Chats
+black_1 : "**usage:**\n/blacklistchat [chat_id]"
+black_2 : "chat is already blacklisted."
+black_3 : "chat has been successfully blacklisted baby"
+black_4 : "**usage:**\n/whitelistchat [chat_id]"
+black_5 : "chat is already whitelisted."
+black_6 : "chat has been successfully whitelisted baby"
+black_7 : "**blacklisted chats:**\n\n"
+black_8 : "no blacklisted chats."
+
+#videolimit
+vid_1 : "**usage:**\n/set_video_limit [number of chats] or [disable]"
+vid_2 : "please use numeric numbers for setting limit."
+vid_3 : "video calls maximum limit defined to {0} chats."
+vid_4 : "video calls disabled."
+
+#maintenance
+maint_1 : "**usage:**\n/maintenance [enable|disable]"
+maint_2 : "enabled for maintenance."
+maint_3 : "maintenance mode disabled."
+
+#log
+log_1 : "**usage:**\n/logger [enable|disable]"
+log_2 : "enabled logging."
+log_3 : "disabled logging."
+
+#videomode
+vidmode_1 : "**usage:**\n/videomode [download|m3u8]"
+vidmode_2 : "video play mode set as downloader. bot will be downloading tracks now."
+vidmode_3 : "video play mode set as m3u8. bot will be able to play tracks live now."
+
+#broadcast
+broad_1 : "**broadcasted message in {0}  chats with {1} pins from bot.**"
+broad_2 : "started assistant broadcast..."
+broad_3 : "**assistant broadcast:\n\n"
+broad_4 : "assistant {0} broadcasted in {1} chats\n"
+broad_5 : "**usage**:\n/broadcast [message] or [reply to a message]"
+broad_6 : "please provide some text to broadcast."
+broad_7 : "**broadcasted message to {0} users.**"
+
+#Heroku
+heroku_1 : "please make sure your **heroku api key**, your **app name** are configured correctly in heroku"
+heroku_2 : "you can only get logs of heroku apps."
+heroku_3 : "**usage:**\n/get_var [var name]"
+heroku_4 : "unable to find any such var."
+heroku_5 : ".env file not found."
+heroku_6 : "**usage:**\n/del_var [var name]"
+heroku_7 : "{0} deleted."
+heroku_8 : "**usage:**\n/set_var [var name] [var value]"
+heroku_9 : "{0} has been updated successfully."
+heroku_10 : "{0} has been added successfully."
+heroku_11 : "only for heroku apps."
+heroku_12 : "checking heroku usage...please wait !"
+heroku_13 : "checking for available updates..."
+heroku_14 : "git command error."
+heroku_15 : "invalid git repsitory."
+
+#Private bot mode
+pbot_1 : "**usage:**\n/authorize [chat_id]"
+pbot_2 :  "**usage:**\n/unauthorize [chat_id]"
+pbot_3 : "added given chat to authorized list."
+pbot_4 : "removed given chat from authorized list."
+pbot_5 : "chat is already in the authorized list."
+pbot_6 : "no such chat exists in the authorized list."
+pbot_7 : "failed to verify chat_id.\n\nmake sure its numeric and in correct format. don't use chat username or links."
+pbot_8 : "please wait...fetching authorized chats.."
+pbot_9 : "**<b>fetched chats:</b>**\n\n"
+pbot_10 : "private chat"
+pbot_11 : "no authorized chats found."
+pbot_12 : "private bot mode is disabled.\n\nto use your bot as private bot make sure to set **private_bot_mode** = **true**"
+pbot_13 : "\n**<b>unfetched chats:</b>**\n\n"
+
+
+#Gbanned
+gban_1 : "you can't gban yourself ? bloody noob !"
+gban_2 : "you want me to gban myself ? bloody motherfu*ker."
+gban_3 : "you want to gban my ex ?"
+gban_4 : "{0} is already **gbanned** from the bot."
+gban_5 : "**global banning {0}**\n\nexpected time : {1}."
+gban_6 : "**gbanned successfully**\n\nbanned **{0}** from **{1}** chats."
+gban_7 : "{0} is not **gbanned **, how can i ungban him ?"
+gban_8 : "**ungbanning {0}**\n\nexpected time : {1}."
+gban_9 : "**ungbanned successfully**\n\nunbanned **{0}** in **{1}** chats."
+gban_10 : "no one is gbanned."
+gban_11 : "getting gbanned users list..."
