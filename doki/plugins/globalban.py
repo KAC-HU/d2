@@ -7,16 +7,16 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from AnonX import app
-from AnonX.misc import SUDOERS
-from AnonX.utils import get_readable_time
-from AnonX.utils.database import (add_banned_user,
+from doki import app
+from doki.misc import SUDOERS
+from doki.utils import get_readable_time
+from doki.utils.database import (add_banned_user,
                                        get_banned_count,
                                        get_banned_users,
                                        get_served_chats,
                                        is_banned_user,
                                        remove_banned_user)
-from AnonX.utils.decorators.language import language
+from doki.utils.decorators.language import language
 
 # Command
 GBAN_COMMAND = get_command("GBAN_COMMAND")
@@ -125,7 +125,7 @@ async def gbanned_list(client, message: Message, _):
     if counts == 0:
         return await message.reply_text(_["gban_10"])
     mystic = await message.reply_text(_["gban_11"])
-    msg = "ɢʙᴀɴɴᴇᴅ ᴜsᴇʀs:\n\n"
+    msg = "Gbanned Users:\n\n"
     count = 0
     users = await get_banned_users()
     for user_id in users:
@@ -137,7 +137,7 @@ async def gbanned_list(client, message: Message, _):
             )
             msg += f"{count}➤ {user}\n"
         except Exception:
-            msg += f"{count}➤ [ᴜɴᴋɴᴏᴡɴ ᴜsᴇʀ]{user_id}\n"
+            msg += f"{count}➤ [Unknown User]{user_id}\n"
             continue
     if count == 0:
         return await mystic.edit_text(_["gban_10"])
