@@ -3,12 +3,12 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from AnonX import app
-from AnonX.misc import SUDOERS
-from AnonX.utils.database import (blacklist_chat,
+from doki import app
+from doki.misc import SUDOERS
+from doki.utils.database import (blacklist_chat,
                                        blacklisted_chats,
                                        whitelist_chat)
-from AnonX.utils.decorators.language import language
+from doki.utils.decorators.language import language
 
 # Commands
 
@@ -29,7 +29,7 @@ async def blacklist_chat_func(client, message: Message, _):
     if blacklisted:
         await message.reply_text(_["black_3"])
     else:
-        await message.reply_text("sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ.")
+        await message.reply_text("Sumthin Went Wrong.")
     try:
         await app.leave_chat(chat_id)
     except:
