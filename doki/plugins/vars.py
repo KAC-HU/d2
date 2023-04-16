@@ -4,10 +4,10 @@ from pyrogram import filters
 
 import config
 from strings import get_command
-from AnonX import app
-from AnonX.misc import SUDOERS
-from AnonX.utils.database.memorydatabase import get_video_limit
-from AnonX.utils.formatters import convert_bytes
+from doki import app
+from doki.misc import SUDOERS
+from doki.utils.database.memorydatabase import get_video_limit
+from doki.utils.formatters import convert_bytes
 
 VARS_COMMAND = get_command("VARS_COMMAND")
 
