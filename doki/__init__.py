@@ -3,7 +3,7 @@ from doki.core.dir import dirr
 from doki.core.git import git
 from doki.core.userbot import Userbot
 from doki.misc import dbb, heroku, sudo
-from doki import ClientSession
+from aiohttp import ClientSession
 
 from .logging import LOGGER
 
