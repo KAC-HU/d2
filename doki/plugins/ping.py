@@ -6,7 +6,7 @@ from pyrogram.types import Message
 from config import BANNED_USERS, MUSIC_BOT_NAME, PING_IMG_URL
 from strings import get_command
 from doki import app
-from doki.core.call import Anon
+from doki.core.call import Doki
 from doki.utils import bot_sys_stats
 from doki.utils.decorators.language import language
 from doki.utils.inline.play import close_keyboard
