@@ -11,7 +11,7 @@ from config import (AUTO_DOWNLOADS_CLEAR, BANNED_USERS,
                     TELEGRAM_AUDIO_URL, TELEGRAM_VIDEO_URL,
                     MUSIC_BOT_NAME, adminlist)
 from doki import YouTube, app
-from doki.core.call import Anon
+from doki.core.call import Doki
 from doki.misc import SUDOERS, db
 from doki.utils import bot_sys_stats
 from doki.utils.database import (
