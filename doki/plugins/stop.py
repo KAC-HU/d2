@@ -3,11 +3,11 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from AnonX import app
-from AnonX.core.call import Anon
-from AnonX.utils.database import set_loop
-from AnonX.utils.decorators import AdminRightsCheck
-from AnonX.utils.inline.play import close_keyboard
+from doki import app
+from doki.core.call import Anon
+from doki.utils.database import set_loop
+from doki.utils.decorators import AdminRightsCheck
+from doki.utils.inline.play import close_keyboard
 
 # Commands
 STOP_COMMAND = get_command("STOP_COMMAND")
