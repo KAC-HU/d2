@@ -65,7 +65,7 @@ def get_playlist_markup(_):
         ],
         [
             InlineKeyboardButton(
-                text="ʙᴀᴄᴋ", callback_data="home_play"
+                text="Back", callback_data="home_play"
             ),
             InlineKeyboardButton(
                 text="Close", callback_data="close"
