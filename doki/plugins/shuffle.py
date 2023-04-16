@@ -5,9 +5,9 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from AnonX import app
-from AnonX.misc import db
-from AnonX.utils.decorators import AdminRightsCheck
+from doki import app
+from doki.misc import db
+from doki.utils.decorators import AdminRightsCheck
 
 # Commands
 SHUFFLE_COMMAND = get_command("SHUFFLE_COMMAND")
