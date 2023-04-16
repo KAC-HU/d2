@@ -1,6 +1,6 @@
 import config
 from config import PRIVATE_BOT_MODE
-from AnonX.core.mongo import mongodb
+from doki.core.mongo import mongodb
 
 channeldb = mongodb.cplaymode
 commanddb = mongodb.commands
@@ -420,7 +420,7 @@ async def save_video_bitrate(chat_id: int, bitrate: str):
 async def get_aud_bit_name(chat_id: int) -> str:
     mode = audio.get(chat_id)
     if not mode:
-        return "High"
+        return "Low"
     return mode
 
 
@@ -430,7 +430,7 @@ async def get_vid_bit_name(chat_id: int) -> str:
         if PRIVATE_BOT_MODE == str(True):
             return "High"
         else:
-            return "Medium"
+            return "Low"
     return mode
 
 
