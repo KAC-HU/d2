@@ -11,7 +11,7 @@ from config import BANNED_USERS
 from strings import get_command
 from doki import app
 from doki.misc import db
-from doki.utils import (Anonbin, get_channeplayCB,
+from doki.utils import (Dokibin, get_channeplayCB,
                               seconds_to_min)
 from doki.utils.database import (get_cmode, is_active_chat,
                                        is_music_playing)
