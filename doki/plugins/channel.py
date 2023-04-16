@@ -3,9 +3,9 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from AnonX import app
-from AnonX.utils.database import set_cmode
-from AnonX.utils.decorators.admins import AdminActual
+from doki import app
+from doki.utils.database import set_cmode
+from doki.utils.decorators.admins import AdminActual
 
 ### Multi-Lang Commands
 CHANNELPLAY_COMMAND = get_command("CHANNELPLAY_COMMAND")
