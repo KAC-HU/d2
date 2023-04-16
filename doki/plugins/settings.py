@@ -22,13 +22,13 @@ from doki.utils.database import (add_nonadmin_chat,
                                        save_audio_bitrate,
                                        save_video_bitrate,
                                        set_playmode, set_playtype)
-from AnonX.utils.decorators.admins import ActualAdminCB
-from AnonX.utils.decorators.language import language, languageCB
-from AnonX.utils.inline.settings import (
+from doki.utils.decorators.admins import ActualAdminCB
+from doki.utils.decorators.language import language, languageCB
+from doki.utils.inline.settings import (
     audio_quality_markup, auth_users_markup,
     cleanmode_settings_markup, playmode_users_markup, setting_markup,
     video_quality_markup)
-from AnonX.utils.inline.start import private_panel
+from doki.utils.inline.start import private_panel
 
 ### Command
 SETTINGS_COMMAND = get_command("SETTINGS_COMMAND")
