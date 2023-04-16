@@ -12,17 +12,17 @@ from pytgcalls.__version__ import __version__ as pytgver
 import config
 from config import BANNED_USERS, MUSIC_BOT_NAME
 from strings import get_command
-from AnonX import YouTube, app
-from AnonX.core.userbot import assistants
-from AnonX.misc import SUDOERS, pymongodb
-from AnonX.plugins import ALL_MODULES
-from AnonX.utils.database import (get_global_tops,
+from doki import YouTube, app
+from doki.core.userbot import assistants
+from doki.misc import SUDOERS, pymongodb
+from doki.plugins import ALL_MODULES
+from doki.utils.database import (get_global_tops,
                                        get_particulars, get_queries,
                                        get_served_chats,
                                        get_served_users, get_sudoers,
                                        get_top_chats, get_topp_users)
-from AnonX.utils.decorators.language import language, languageCB
-from AnonX.utils.inline.stats import (back_stats_buttons,
+from doki.utils.decorators.language import language, languageCB
+from doki.utils.inline.stats import (back_stats_buttons,
                                            back_stats_markup,
                                            get_stats_markup,
                                            overallback_stats_markup,
@@ -106,7 +106,7 @@ async def gstats_global(client, message: Message, _):
         vidid,
     ) = await YouTube.details(videoid, True)
     title = title.title()
-    final = f"ᴛᴏᴩ ᴍᴏsᴛ ᴩʟᴀʏᴇᴅ ᴛʀᴀᴄᴋ ᴏɴ {MUSIC_BOT_NAME}\n\n**ᴛɪᴛʟᴇ:** {title}\n\nᴩʟᴀʏᴇᴅ** {co} **ᴛɪᴍᴇs."
+    final = f"Top most played track on {MUSIC_BOT_NAME}\n\n**Title:** {title}\n\nPlayed** {co} **Times."
     upl = get_stats_markup(
         _, True if message.from_user.id in SUDOERS else False
     )
@@ -180,9 +180,9 @@ async def top_users_ten(client, CallbackQuery: CallbackQuery, _):
                 details = stats.get(items)
                 title = (details["title"][:35]).title()
                 if items == "telegram":
-                    msg += f"🍒 [ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ](https://t.me/DevilsHeavenMF) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
+                    msg += f" [TG Media](https://t.me/TogaSupport) ** Played {count} Times**\n\n"
                 else:
-                    msg += f"📌 [{title}](https://www.youtube.com/watch?v={items}) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
+                    msg += f" [{title}](https://www.youtube.com/watch?v={items}) ** Played {count} Times**\n\n"
 
             temp = (
                 _["gstats_4"].format(
