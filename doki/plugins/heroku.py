@@ -21,7 +21,7 @@ from doki.utils.database import (get_active_chats,
                                        remove_active_chat,
                                        remove_active_video_chat)
 from doki.utils.decorators.language import language
-from doki.utils.pastebin import Dokubin
+from doki.utils.pastebin import Dokibin
 
 # Commands
 GETLOG_COMMAND = get_command("GETLOG_COMMAND")
