@@ -9,14 +9,14 @@ from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
 import config
 from config import BANNED_USERS
 from strings import get_command
-from AnonX import app
-from AnonX.misc import db
-from AnonX.utils import (Anonbin, get_channeplayCB,
+from doki import app
+from doki.misc import db
+from doki.utils import (Anonbin, get_channeplayCB,
                               seconds_to_min)
-from AnonX.utils.database import (get_cmode, is_active_chat,
+from doki.utils.database import (get_cmode, is_active_chat,
                                        is_music_playing)
-from AnonX.utils.decorators.language import language, languageCB
-from AnonX.utils.inline import queue_back_markup, queue_markup
+from doki.utils.decorators.language import language, languageCB
+from doki.utils.inline import queue_back_markup, queue_markup
 
 ###Commands
 QUEUE_COMMAND = get_command("QUEUE_COMMAND")
