@@ -1,9 +1,9 @@
-from AnonX.core.bot import AnonXBot
-from AnonX.core.dir import dirr
-from AnonX.core.git import git
-from AnonX.core.userbot import Userbot
-from AnonX.misc import dbb, heroku, sudo
-from aiohttp import ClientSession
+from doki.core.bot import DokiBot
+from doki.core.dir import dirr
+from doki.core.git import git
+from doki.core.userbot import Userbot
+from doki.misc import dbb, heroku, sudo
+from doki import ClientSession
 
 from .logging import LOGGER
 
