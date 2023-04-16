@@ -18,8 +18,8 @@ from doki.utils.database import (get_active_chats,
                                        is_cleanmode_on, set_queries,
                                        update_particular_top,
                                        update_user_top)
-from AnonX.utils.decorators.language import language
-from AnonX.utils.formatters import alpha_to_int
+from doki.utils.decorators.language import language
+from doki.utils.formatters import alpha_to_int
 
 BROADCAST_COMMAND = get_command("BROADCAST_COMMAND")
 AUTO_DELETE = config.CLEANMODE_DELETE_MINS
