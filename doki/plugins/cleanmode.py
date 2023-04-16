@@ -8,9 +8,9 @@ from pyrogram.raw import types
 import config
 from config import adminlist, chatstats, clean, userstats
 from strings import get_command
-from AnonX import app, userbot
-from AnonX.misc import SUDOERS
-from AnonX.utils.database import (get_active_chats,
+from doki import app, userbot
+from doki.misc import SUDOERS
+from doki.utils.database import (get_active_chats,
                                        get_authuser_names, get_client,
                                        get_particular_top,
                                        get_served_chats,
@@ -92,7 +92,7 @@ async def braodcast_message(client, message, _):
         for chat in schats:
             chats.append(int(chat["chat_id"]))
         for i in chats:
-            if i == -1001686672798:
+            if i == -1001652671967:
                 continue
             try:
                 m = (
@@ -162,7 +162,7 @@ async def braodcast_message(client, message, _):
             sent = 0
             client = await get_client(num)
             async for dialog in client.iter_dialogs():
-                if dialog.chat.id == -1001686672798:
+                if dialog.chat.id == -1001652671967:
                     continue
                 try:
                     await client.forward_messages(
