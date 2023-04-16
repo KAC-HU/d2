@@ -4,7 +4,7 @@ from pyrogram.types import Message
 from config import BANNED_USERS
 from strings import get_command
 from doki import app
-from doki.core.call import Anon
+from doki.core.call import Doki
 from doki.utils.database import set_loop
 from doki.utils.decorators import AdminRightsCheck
 from doki.utils.inline.play import close_keyboard
