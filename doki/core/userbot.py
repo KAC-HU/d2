@@ -97,7 +97,7 @@ class Userbot(Client):
                 self.two.name = get_me.first_name
             try:
                 await self.two.send_message(
-                    config.LOG_GROUP_ID, f"Doki Ally 1 Started"
+                    config.LOG_GROUP_ID, f"Doki Ally 2 Started"
                 )
             except:
                 LOGGER(__name__).error(
@@ -128,7 +128,7 @@ class Userbot(Client):
                 self.three.name = get_me.first_name
             try:
                 await self.three.send_message(
-                    config.LOG_GROUP_ID, f"Doki Ally 1 Started"
+                    config.LOG_GROUP_ID, f"Doki Ally 3 Started"
                 )
             except:
                 LOGGER(__name__).error(
@@ -159,7 +159,7 @@ class Userbot(Client):
                 self.four.name = get_me.first_name
             try:
                 await self.four.send_message(
-                    config.LOG_GROUP_ID, f"Doki Ally 1 Started"
+                    config.LOG_GROUP_ID, f"Doki Ally 4 Started"
                 )
             except:
                 LOGGER(__name__).error(
@@ -190,7 +190,7 @@ class Userbot(Client):
                 self.five.name = get_me.first_name
             try:
                 await self.five.send_message(
-                    config.LOG_GROUP_ID, f"Doki Ally 1 Started"
+                    config.LOG_GROUP_ID, f"Doki Ally 5 Started"
                 )
             except:
                 LOGGER(__name__).error(
