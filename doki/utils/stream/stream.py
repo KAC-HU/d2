@@ -5,20 +5,20 @@ from typing import Union
 from pyrogram.types import InlineKeyboardMarkup
 
 import config
-from AnonX import Carbon, YouTube, app
-from AnonX.core.call import Anon
-from AnonX.misc import db
-from AnonX.utils.database import (add_active_chat,
+from doki import Carbon, YouTube, app
+from doki.core.call import Doki
+from doki.misc import db
+from doki.utils.database import (add_active_chat,
                                        add_active_video_chat,
                                        is_active_chat,
                                        is_video_allowed, music_on)
-from AnonX.utils.exceptions import AssistantErr
-from AnonX.utils.inline.play import (stream_markup, queue_markup,
+from doki.utils.exceptions import AssistantErr
+from doki.utils.inline.play import (stream_markup, queue_markup,
                                           telegram_markup)
-from AnonX.utils.inline.playlist import close_markup
-from AnonX.utils.pastebin import Anonbin
-from AnonX.utils.stream.queue import put_queue, put_queue_index
-from AnonX.utils.thumbnails import gen_thumb, gen_qthumb
+from doki.utils.inline.playlist import close_markup
+from doki.utils.pastebin import Dokibin
+from doki.utils.stream.queue import put_queue, put_queue_index
+from doki.utils.thumbnails import gen_thumb, gen_qthumb
 
 
 async def stream(
