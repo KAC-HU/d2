@@ -17,7 +17,7 @@ from doki.utils.inline.play import close_keyboard
 from doki.utils.inline.playlist import (botplaylist_markup,
                                               get_playlist_markup,
                                               warning_markup)
-from doki.utils.pastebin import Anonbin
+from doki.utils.pastebin import Dokibin
 from doki.utils.stream.stream import stream
 
 # Command
