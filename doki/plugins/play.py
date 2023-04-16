@@ -12,7 +12,7 @@ from config import BANNED_USERS, lyrical
 from strings import get_command
 from doki import (Apple, Resso, SoundCloud, Spotify, Telegram,
                         YouTube, app)
-from doki.core.call import Anon
+from doki.core.call import Doki
 from doki.utils import seconds_to_min, time_to_seconds
 from doki.utils.channelplay import get_channeplayCB
 from doki.utils.database import is_video_allowed
