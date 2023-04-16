@@ -3,7 +3,7 @@ from datetime import datetime
 
 import config
 from doki import app
-from doki.core.call import Anon, autoend
+from doki.core.call import Doki, autoend
 from doki.utils.database import (get_client, is_active_chat,
                                        is_autoend)
 
