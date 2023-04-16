@@ -14,10 +14,6 @@
 <a href="https://github.com/KAC-CHAN/doki/commits/KAC-CHAN"> <img src="https://img.shields.io/github/last-commit/KACCHAN/doki?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
 </p>
 
-<p align="center">
-  <img src="https://graph.org/file/82e478b5ad0e14b78fde3.jpg">
-</p>
-
 <h3 align="center">
     ─「 Deploy On Heroku 」─
 </h3>
